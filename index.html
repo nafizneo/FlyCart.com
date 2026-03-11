@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyCart.com - Shop Smart, Fly High</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <!-- Top Header -->
+    <header class="top-header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-dove"></i>
+                    </div>
+                    <span class="logo-text">Fly<span>Cart</span>.com</span>
+                </a>
+
+                <!-- Deliver To -->
+                <div class="deliver-to">
+                    <span class="deliver-to-icon"><i class="fas fa-map-marker-alt"></i></span>
+                    <div class="deliver-to-text">
+                        <small>Deliver to</small>
+                        <span>New York 10001</span>
+                    </div>
+                </div>
+
+                <!-- Search Bar -->
+                <div class="search-bar">
+                    <select class="search-category">
+                        <option>All Categories</option>
+                        <option>Electronics</option>
+                        <option>Fashion</option>
+                        <option>Home & Garden</option>
+                        <option>Books</option>
+                        <option>Sports</option>
+                        <option>Toys</option>
+                        <option>Beauty</option>
+                    </select>
+                    <input type="text" class="search-input" placeholder="Search FlyCart.com">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+
+                <!-- Header Actions -->
+                <div class="header-actions">
+                    <!-- Language -->
+                    <div class="language-selector">
+                        <img src="https://flagcdn.com/w40/us.png" alt="US">
+                        <span>EN</span>
+                        <i class="fas fa-chevron-down" style="font-size: 10px;"></i>
+                    </div>
+
+                    <!-- Account -->
+                    <div class="header-action account">
+                        <small>Hello, Sign in</small>
+                        <span>Account & Lists <i class="fas fa-chevron-down" style="font-size: 10px;"></i></span>
+                    </div>
+
+                    <!-- Returns -->
+                    <div class="header-action">
+                        <small>Returns</small>
+                        <span>& Orders</span>
+                    </div>
+
+                    <!-- Cart -->
+                    <a href="#" class="cart-btn">
+                        <span class="cart-count">3</span>
+                        <span class="cart-icon"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="cart-text">Cart</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sub Navigation -->
+    <nav class="sub-nav">
+        <div class="container">
+            <div class="sub-nav-content">
+                <a href="#" class="sub-nav-item bold">
+                    <i class="fas fa-bars"></i> All
+                </a>
+                <a href="#" class="sub-nav-item">Today's Deals</a>
+                <a href="#" class="sub-nav-item">Customer Service</a>
+                <a href="#" class="sub-nav-item">Registry</a>
+                <a href="#" class="sub-nav-item">Gift Cards</a>
+                <a href="#" class="sub-nav-item">Sell</a>
+                <div class="sub-nav-divider"></div>
+                <a href="#" class="sub-nav-item">Electronics</a>
+                <a href="#" class="sub-nav-item">Fashion</a>
+                <a href="#" class="sub-nav-item">Home</a>
+                <a href="#" class="sub-nav-item">Books</a>
+                <a href="#" class="sub-nav-item">Toys & Games</a>
+                <div class="sub-nav-divider"></div>
+                <a href="#" class="sub-nav-item" style="color: #ff9900;"><i class="fas fa-bolt"></i> Flash Sale</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-carousel">
+            <!-- Slide 1 -->
+            <div class="hero-slide active">
+                <div class="hero-slide-content">
+                    <div class="hero-text">
+                        <h1>Summer Sale<br>Up to 50% Off</h1>
+                        <p>Discover amazing deals on electronics, fashion, home goods and more. Limited time offers!</p>
+                        <a href="#" class="hero-btn">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=400&fit=crop" alt="Summer Sale">
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="hero-slide">
+                <div class="hero-slide-content">
+                    <div class="hero-text">
+                        <h1>New Arrivals<br>Tech Gadgets 2024</h1>
+                        <p>Explore the latest technology innovations. Smart devices for smarter living.</p>
+                        <a href="#" class="hero-btn">Explore Tech <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?w=600&h=400&fit=crop" alt="Tech Gadgets">
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="hero-slide">
+                <div class="hero-slide-content">
+                    <div class="hero-text">
+                        <h1>Fashion Week<br>Exclusive Collections</h1>
+                        <p>Upgrade your wardrobe with trending styles from top brands worldwide.</p>
+                        <a href="#" class="hero-btn">Shop Fashion <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=600&h=400&fit=crop" alt="Fashion">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-dots">
+            <span class="carousel-dot active" data-slide="0"></span>
+            <span class="carousel-dot" data-slide="1"></span>
+            <span class="carousel-dot" data-slide="2"></span>
+        </div>
+        <div class="hero-gradient"></div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="category-section">
+        <div class="container">
+            <div class="category-grid">
+                <!-- Category Card 1 -->
+                <div class="category-card">
+                    <h3>Gaming Accessories</h3>
+                    <div class="category-card-images">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1599669454699-248893623440?w=200&h=150&fit=crop" alt="Headsets">
+                            <span>Headsets</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=200&h=150&fit=crop" alt="Keyboards">
+                            <span>Keyboards</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=200&h=150&fit=crop" alt="Mouse">
+                            <span>Computer Mice</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1580480098991-7b5e3fd6a31e?w=200&h=150&fit=crop" alt="Chairs">
+                            <span>Chairs</span>
+                        </a>
+                    </div>
+                    <a href="#" class="category-link">See more</a>
+                </div>
+
+                <!-- Category Card 2 -->
+                <div class="category-card">
+                    <h3>Shop by Category</h3>
+                    <div class="category-card-images">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1548171915-e79a380a2a4b?w=200&h=150&fit=crop" alt="Watches">
+                            <span>Watches</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=200&h=150&fit=crop" alt="Beauty">
+                            <span>Beauty</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=200&h=150&fit=crop" alt="Bags">
+                            <span>Bags</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=200&h=150&fit=crop" alt="Shoes">
+                            <span>Shoes</span>
+                        </a>
+                    </div>
+                    <a href="#" class="category-link">Shop all</a>
+                </div>
+
+                <!-- Category Card 3 -->
+                <div class="category-card single-image">
+                    <h3>Deals in Electronics</h3>
+                    <div class="category-card-images">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400&h=300&fit=crop" alt="Electronics">
+                        </a>
+                    </div>
+                    <a href="#" class="category-link">See all deals</a>
+                </div>
+
+                <!-- Category Card 4 -->
+                <div class="category-card">
+                    <h3>Home Decor</h3>
+                    <div class="category-card-images">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=200&h=150&fit=crop" alt="Living Room">
+                            <span>Living Room</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=200&h=150&fit=crop" alt="Kitchen">
+                            <span>Kitchen</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=200&h=150&fit=crop" alt="Bedroom">
+                            <span>Bedroom</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=150&fit=crop" alt="Lighting">
+                            <span>Lighting</span>
+                        </a>
+                    </div>
+                    <a href="#" class="category-link">Explore more</a>
+                </div>
+
+                <!-- Category Card 5 -->
+                <div class="category-card single-image">
+                    <h3>Top Deals on Smartphones</h3>
+                    <div class="category-card-images">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop" alt="Smartphones">
+                        </a>
+                    </div>
+                    <a href="#" class="category-link">Shop smartphones</a>
+                </div>
+
+                <!-- Category Card 6 -->
+                <div class="category-card">
+                    <h3>Fitness & Outdoors</h3>
+                    <div class="category-card-images">
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=150&fit=crop" alt="Yoga">
+                            <span>Yoga</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=200&h=150&fit=crop" alt="Boxing">
+                            <span>Boxing</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=200&h=150&fit=crop" alt="Gym">
+                            <span>Gym</span>
+                        </a>
+                        <a href="#">
+                            <img src="https://images.unsplash.com/photo-1502904550040-7534597429ae?w=200&h=150&fit=crop" alt="Camping">
+                            <span>Camping</span>
+                        </a>
+                    </div>
+                    <a href="#" class="category-link">Get active</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section - Trending -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trending Now</h2>
+                <a href="#" class="section-link">See all deals</a>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Best Seller</span>
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop" alt="Wireless Headphones">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Premium Wireless Noise Cancelling Headphones - Deep Bass, 30H Battery</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                            <span class="rating-count">(2,456)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>79<sup>99</sup></span>
+                            <span class="original-price">$129.99</span>
+                            <span class="discount">-38%</span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                            <span class="prime-badge"><i class="fas fa-check"></i> Prime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge new">New</span>
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300&h=300&fit=crop" alt="Smart Watch">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Smart Watch Series 8 - Health Monitor, GPS, 50M Water Resistant</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            <span class="rating-count">(5,891)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>299<sup>00</sup></span>
+                            <span class="original-price">$399.00</span>
+                            <span class="discount">-25%</span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                            <span class="prime-badge"><i class="fas fa-check"></i> Prime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=300&fit=crop" alt="Perfume">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Luxury Eau de Parfum - Long Lasting Fragrance, 3.4 fl oz</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                            <span class="rating-count">(1,234)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>45<sup>99</sup></span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge bestseller">Top Rated</span>
+                        <img src="https://images.unsplash.com/photo-1599669454699-248893623440?w=300&h=300&fit=crop" alt="Headphones">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Studio Monitor Headphones - Over Ear, Professional Audio Quality</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            <span class="rating-count">(8,567)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>149<sup>00</sup></span>
+                            <span class="original-price">$199.00</span>
+                            <span class="discount">-25%</span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                            <span class="prime-badge"><i class="fas fa-check"></i> Prime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1548171915-e79a380a2a4b?w=300&h=300&fit=crop" alt="Watch">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Minimalist Analog Watch - Stainless Steel, Water Resistant</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                            <span class="rating-count">(3,456)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>89<sup>99</sup></span>
+                            <span class="original-price">$120.00</span>
+                            <span class="discount">-25%</span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                            <span class="prime-badge"><i class="fas fa-check"></i> Prime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">-40%</span>
+                        <img src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=300&h=300&fit=crop" alt="Sneakers">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Running Sneakers - Breathable Mesh, Comfortable Athletic Shoes</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            <span class="rating-count">(4,123)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>59<sup>99</sup></span>
+                            <span class="original-price">$99.99</span>
+                            <span class="discount">-40%</span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section class="deals-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-bolt" style="color: #ff9900;"></i> Lightning Deals</h2>
+                <a href="#" class="section-link">See all deals</a>
+            </div>
+            <div class="deals-slider">
+                <!-- Deal 1 -->
+                <div class="deal-card">
+                    <div class="deal-header">
+                        <span class="deal-badge">Up to 50% off</span>
+                        <span class="deal-timer">Ends in <span>04:32:15</span></span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=250&h=200&fit=crop" alt="Sneakers" class="deal-image">
+                    <div class="deal-price">$49.99</div>
+                    <div class="deal-discount">Save $50.00 (50%)</div>
+                    <p class="deal-title">Premium Running Shoes - Limited Edition Collection</p>
+                    <div class="deal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%;"></div>
+                        </div>
+                        <span class="deal-stock">Only 12 left!</span>
+                    </div>
+                </div>
+
+                <!-- Deal 2 -->
+                <div class="deal-card">
+                    <div class="deal-header">
+                        <span class="deal-badge">Deal</span>
+                        <span class="deal-timer">Ends in <span>02:15:45</span></span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=250&h=200&fit=crop" alt="Beauty Set" class="deal-image">
+                    <div class="deal-price">$29.99</div>
+                    <div class="deal-discount">Save $20.00 (40%)</div>
+                    <p class="deal-title">Luxury Skincare Gift Set - 5 Piece Collection</p>
+                    <div class="deal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%;"></div>
+                        </div>
+                        <span class="deal-stock">23 claimed</span>
+                    </div>
+                </div>
+
+                <!-- Deal 3 -->
+                <div class="deal-card">
+                    <div class="deal-header">
+                        <span class="deal-badge">Best Deal</span>
+                        <span class="deal-timer">Ends in <span>06:45:30</span></span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=250&h=200&fit=crop" alt="Smart Watch" class="deal-image">
+                    <div class="deal-price">$199.99</div>
+                    <div class="deal-discount">Save $100.00 (33%)</div>
+                    <p class="deal-title">Smart Fitness Watch with Heart Rate Monitor</p>
+                    <div class="deal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%;"></div>
+                        </div>
+                        <span class="deal-stock">Almost gone! Only 5 left</span>
+                    </div>
+                </div>
+
+                <!-- Deal 4 -->
+                <div class="deal-card">
+                    <div class="deal-header">
+                        <span class="deal-badge">Up to 35% off</span>
+                        <span class="deal-timer">Ends in <span>08:22:10</span></span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=250&h=200&fit=crop" alt="Phone Case" class="deal-image">
+                    <div class="deal-price">$14.99</div>
+                    <div class="deal-discount">Save $8.00 (35%)</div>
+                    <p class="deal-title">Premium Leather Phone Case - Multiple Colors</p>
+                    <div class="deal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 45%;"></div>
+                        </div>
+                        <span class="deal-stock">45 claimed</span>
+                    </div>
+                </div>
+
+                <!-- Deal 5 -->
+                <div class="deal-card">
+                    <div class="deal-header">
+                        <span class="deal-badge">Deal</span>
+                        <span class="deal-timer">Ends in <span>12:05:00</span></span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=250&h=200&fit=crop" alt="Keyboard" class="deal-image">
+                    <div class="deal-price">$79.99</div>
+                    <div class="deal-discount">Save $40.00 (33%)</div>
+                    <p class="deal-title">Mechanical Gaming Keyboard - RGB Backlit</p>
+                    <div class="deal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 55%;"></div>
+                        </div>
+                        <span class="deal-stock">30 claimed</span>
+                    </div>
+                </div>
+
+                <!-- Deal 6 -->
+                <div class="deal-card">
+                    <div class="deal-header">
+                        <span class="deal-badge">Flash Sale</span>
+                        <span class="deal-timer">Ends in <span>01:30:25</span></span>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1599669454699-248893623440?w=250&h=200&fit=crop" alt="Earbuds" class="deal-image">
+                    <div class="deal-price">$39.99</div>
+                    <div class="deal-discount">Save $30.00 (43%)</div>
+                    <p class="deal-title">Wireless Earbuds with Noise Cancellation</p>
+                    <div class="deal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%;"></div>
+                        </div>
+                        <span class="deal-stock">Hurry! Only 3 left</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section - Best Sellers -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Best Sellers</h2>
+                <a href="#" class="section-link">See more</a>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge bestseller">#1 Best Seller</span>
+                        <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=300&fit=crop" alt="Book">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>The Art of Productivity - Bestselling Self-Help Book Collection</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            <span class="rating-count">(12,456)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>14<sup>99</sup></span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                            <span class="prime-badge"><i class="fas fa-check"></i> Prime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1434056886845-ddd796b2dd39?w=300&h=300&fit=crop" alt="Camera">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Digital Camera 4K Vlogging Camera with Flip Screen</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                            <span class="rating-count">(2,789)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>329<sup>00</sup></span>
+                            <span class="original-price">$449.00</span>
+                            <span class="discount">-27%</span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                            <span class="prime-badge"><i class="fas fa-check"></i> Prime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge new">New</span>
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=300&fit=crop" alt="Lamp">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Modern LED Desk Lamp with Wireless Charger Base</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            <span class="rating-count">(1,567)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>34<sup>99</sup></span>
+                            <span class="original-price">$49.99</span>
+                            <span class="discount">-30%</span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=300&h=300&fit=crop" alt="Headphones">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Gaming Headset with 7.1 Surround Sound - PS5, Xbox, PC</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+                            <span class="rating-count">(4,321)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>59<sup>99</sup></span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                            <span class="prime-badge"><i class="fas fa-check"></i> Prime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Best Seller</span>
+                        <img src="https://images.unsplash.com/photo-1491553895911-0055uj8d8877?w=300&h=300&fit=crop" alt="Backpack">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Travel Backpack 40L - Water Resistant, Laptop Compartment</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span>
+                            <span class="rating-count">(6,892)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>44<sup>99</sup></span>
+                            <span class="original-price">$69.99</span>
+                            <span class="discount">-36%</span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                            <span class="prime-badge"><i class="fas fa-check"></i> Prime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=300&fit=crop" alt="Skincare">
+                        <div class="product-wishlist"><i class="far fa-heart"></i></div>
+                    </div>
+                    <div class="product-info">
+                        <h4>Vitamin C Serum - Anti-Aging Skincare, Brightening Formula</h4>
+                        <div class="product-rating">
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                            <span class="rating-count">(9,234)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price"><sup>$</sup>19<sup>99</sup></span>
+                            <span class="original-price">$29.99</span>
+                            <span class="discount">-33%</span>
+                        </div>
+                        <div class="product-delivery">
+                            <span class="free-delivery">FREE Delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner-section">
+        <div class="container">
+            <div class="banner-grid">
+                <div class="banner-card">
+                    <div class="banner-content">
+                        <span class="banner-tag">New Collection</span>
+                        <h3>Summer Fashion<br>Up to 40% Off</h3>
+                        <p>Discover trending styles for the season. From casual wear to elegant evening outfits.</p>
+                        <a href="#" class="banner-btn">Shop Fashion</a>
+                    </div>
+                    <div class="banner-image">
+                        <img src="https://images.unsplash.com/photo-1469334037186-eeec6c35d8eb?w=300&h=300&fit=crop" alt="Fashion">
+                    </div>
+                </div>
+
+                <div class="banner-card dark">
+                    <div class="banner-content">
+                        <span class="banner-tag">Tech Deals</span>
+                        <h3>Premium Electronics<br>Save Big Today</h3>
+                        <p>Latest gadgets and tech essentials at unbeatable prices. Quality guaranteed.</p>
+                        <a href="#" class="banner-btn">Explore Tech</a>
+                    </div>
+                    <div class="banner-image">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=300&h=300&fit=crop" alt="Tech">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-shipping-fast"></i></div>
+                    <h4>Free Shipping</h4>
+                    <p>Free shipping on all orders over $35. Fast and reliable delivery to your doorstep.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-undo"></i></div>
+                    <h4>Easy Returns</h4>
+                    <p>30-day return policy. Shop with confidence, return hassle-free if you change your mind.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                    <h4>24/7 Support</h4>
+                    <p>Our customer support team is available round the clock to assist you with any queries.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-lock"></i></div>
+                    <h4>Secure Payment</h4>
+                    <p>Your payment information is encrypted and secure. Multiple payment options available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h3>Subscribe to Our Newsletter</h3>
+                <p>Get the latest deals, exclusive offers, and new arrivals delivered straight to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#" class="back-to-top">Back to top</a>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h4>Get to Know Us</h4>
+                        <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About FlyCart</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">FlyCart Devices</a></li>
+                            <li><a href="#">FlyCart Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Make Money with Us</h4>
+                        <ul>
+                            <li><a href="#">Sell products on FlyCart</a></li>
+                            <li><a href="#">Sell on FlyCart Business</a></li>
+                            <li><a href="#">Sell apps on FlyCart</a></li>
+                            <li><a href="#">Become an Affiliate</a></li>
+                            <li><a href="#">Advertise Your Products</a></li>
+                            <li><a href="#">Self-Publish</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>FlyCart Payment Products</h4>
+                        <ul>
+                            <li><a href="#">FlyCart Business Card</a></li>
+                            <li><a href="#">Shop with Points</a></li>
+                            <li><a href="#">Reload Your Balance</a></li>
+                            <li><a href="#">Currency Converter</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Let Us Help You</h4>
+                        <ul>
+                            <li><a href="#">FlyCart and COVID-19</a></li>
+                            <li><a href="#">Your Account</a></li>
+                            <li><a href="#">Your Orders</a></li>
+                            <li><a href="#">Shipping Rates</a></li>
+                            <li><a href="#">Returns & Replacements</a></li>
+                            <li><a href="#">Help Center</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon"><i class="fas fa-dove"></i></div>
+                        <span class="footer-logo-text">Fly<span>Cart</span></span>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#"><i class="fas fa-globe"></i> English</a>
+                        <a href="#"><img src="https://flagcdn.com/w20/us.png" alt="US"> United States</a>
+                        <a href="#"><i class="fas fa-dollar-sign"></i> USD</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p>&copy; 2024 FlyCart.com. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Cookie Settings</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Hero Carousel
+        const slides = document.querySelectorAll('.hero-slide');
+        const dots = document.querySelectorAll('.carousel-dot');
+        let currentSlide = 0;
+        let slideInterval;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                dots[i].classList.remove('active');
+            });
+            slides[index].classList.add('active');
+            dots[index].classList.add('active');
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function startSlideShow() {
+            slideInterval = setInterval(nextSlide, 5000);
+        }
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                clearInterval(slideInterval);
+                currentSlide = index;
+                showSlide(currentSlide);
+                startSlideShow();
+            });
+        });
+
+        startSlideShow();
+
+        // Back to top
+        document.querySelector('.back-to-top').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.category-card, .product-card, .deal-card, .banner-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Wishlist toggle
+        document.querySelectorAll('.product-wishlist').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const icon = this.querySelector('i');
+                if (icon.classList.contains('far')) {
+                    icon.classList.remove('far');
+                    icon.classList.add('fas');
+                    icon.style.color = '#cc0c39';
+                } else {
+                    icon.classList.remove('fas');
+                    icon.classList.add('far');
+                    icon.style.color = '';
+                }
+            });
+        });
+
+        // Deal countdown timer simulation
+        function updateTimers() {
+            document.querySelectorAll('.deal-timer span').forEach(timer => {
+                let time = timer.textContent.split(':');
+                let hours = parseInt(time[0]);
+                let minutes = parseInt(time[1]);
+                let seconds = parseInt(time[2]);
+                
+                seconds--;
+                if (seconds < 0) {
+                    seconds = 59;
+                    minutes--;
+                    if (minutes < 0) {
+                        minutes = 59;
+                        hours--;
+                        if (hours < 0) {
+                            hours = 23;
+                        }
+                    }
+                }
+                
+                timer.textContent = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+            });
+        }
+
+        setInterval(updateTimers, 1000);
+    </script>
+</body>
+</html>
